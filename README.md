@@ -1,4 +1,4 @@
-# 🌿 你好！我是Noah Miller  
+# 🌿 你好！我是Rhys Scott
 
 <div align="center" style="margin: 16px 0;">
   <a href="mailto:noahmiller@qq.com" style="margin: 0 8px; text-decoration: none;">
