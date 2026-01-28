@@ -4,6 +4,7 @@
 
 ---
 
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/RhysScott/RhysScott/images/github-snake-dark.svg" />
@@ -11,6 +12,14 @@
     <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/RhysScott/RhysScott/images/github-snake.svg" style="max-width: 100%; height: auto;" />
   </picture>
 </p>
+
+<div align="center">
+<span>&emsp;&emsp;</span>
+<img height="170px" src="https://github-readme-stats.vercel.app/api?username=RhysScott" /><span>&emsp;&emsp;</span><img height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RhysScott&layout=compact&langs_count=8" />
+<span>&emsp;&emsp;</span>
+</div>
+
+![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=RhysScott&theme=github-light)
 
 <p align="center" style="margin: 20px 0;">
   <table align="center" cellpadding="10" style="border-collapse: separate; border-spacing: 20px; text-align: center;">
