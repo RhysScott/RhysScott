@@ -6,7 +6,7 @@
   <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/RhysScott/RhysScott/images/github-snake.svg" />
 </picture>
 
-<table style="margin-top: 20px;">
+<table style="margin-top: 20px auto;">
   <tbody>
     <tr>
       <td align="center">
