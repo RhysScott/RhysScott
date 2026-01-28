@@ -17,16 +17,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 生成蛇形图
       - name: Generate snake grid
         uses: Platane/snk@v3
         with:
-          # GitHub用户名
           github_user_name: RhysScott
-          # 输出目录
-          output_dir: ./images
-          # 生成深色版
-          generate_dark_mode: true
+          args: --output-dir ./images --dark-mode
 
       # 提交生成的文件
       - name: Push changes to repo
