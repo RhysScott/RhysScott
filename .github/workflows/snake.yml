@@ -1,40 +1,32 @@
-# 生成GitHub贡献蛇形图
 name: Generate GitHub Contribution Snake
 
 on:
-  # 每天自动运行
+  push:
+  pull_request:
   schedule:
     - cron: "0 0 * * *"
-  # 允许手动触发
   workflow_dispatch:
 
 jobs:
   build:
-    # 运行环境：最新Ubuntu
     runs-on: ubuntu-latest
     steps:
-      # 步骤1：拉取仓库代码
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 步骤2：提前创建images目录（解决目录不存在报错）
       - name: Create images directory
         run: mkdir -p /github/workspace/images
 
-      # 步骤3：生成蛇形图（适配v3版本，使用绝对路径）
       - name: Generate snake grid
         uses: Platane/snk@v3
         with:
-          # GitHub用户名
           github_user_name: RhysScott
-          # 核心修复：1. 绝对路径 /github/workspace/images 2. 保留--dark-mode参数
           args: --output-dir /github/workspace/images --dark-mode
 
-      # 步骤4：提交生成的文件
       - name: Push changes to repo
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          # 提交说明
-          commit_message: "Auto update GitHub contribution snake graph"
-          # 要提交的文件（仓库中仍使用相对路径./images，无需修改）
+          commit_message: "自动更新GitHub贡献蛇形图"
           file_pattern: ./images/*.svg
+          skip_fetch: true
+          skip_checkout: true
