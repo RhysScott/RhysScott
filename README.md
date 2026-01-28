@@ -1,10 +1,8 @@
-
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=1000&center=true&width=800&height=300&lines=Talk+is+cheap%2C+show+me+the+code.;%E5%BA%9F%E8%AF%9D%E5%B0%91%E8%AF%B4%EF%BC%8C%E6%94%BE%E7%A0%81%E8%BF%87%E6%9D%A5%E3%80%82" alt="Typing SVG" />
-  </a>
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=1000&center=true&vCenter=true&height=50&lines=Talk+is+cheap%2C+show+me+the+code.;%E5%BA%9F%E8%AF%9D%E5%B0%91%E8%AF%B4%EF%BC%8C%E6%94%BE%E7%A0%81%E8%BF%87%E6%9D%A5%E3%80%82" alt="Typing SVG" /></a>
 </p>
 
+---
 
 <p align="center">
   <picture>
@@ -13,7 +11,6 @@
     <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/RhysScott/RhysScott/images/github-snake.svg" style="max-width: 100%; height: auto;" />
   </picture>
 </p>
-
 
 <p align="center" style="margin: 20px 0;">
   <table align="center" cellpadding="10" style="border-collapse: separate; border-spacing: 20px; text-align: center;">
@@ -30,10 +27,10 @@
   </table>
 </p>
 
-
 # 🙋 Hello
 
 ### 🤺 About Me
+
 <p align="left">
   <img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/jobs.png" style="margin-left: 20px; margin-bottom: 10px;" />
 </p>
