@@ -2,6 +2,8 @@
 name: Generate GitHub Contribution Snake
 
 on:
+  push:
+  pull_request:
   # 每天自动运行
   schedule:
     - cron: "0 0 * * *"
