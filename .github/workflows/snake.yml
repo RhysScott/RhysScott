@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Create dist directory
-        run: mkdir -p ./dist
+        run: mkdir -p ./images
 
       - name: Generate snake grid
         uses: Platane/snk@v3
@@ -30,6 +30,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "自动更新GitHub贡献蛇形图"
-          file_pattern: ./dist/*
+          file_pattern: ./images/*
           skip_fetch: true
           skip_checkout: true
