@@ -1,0 +1,38 @@
+# 生成GitHub贡献蛇形图
+name: Generate GitHub Contribution Snake
+
+on:
+  # 每天自动运行
+  schedule:
+    - cron: "0 0 * * *"
+  # 允许手动触发
+  workflow_dispatch:
+
+jobs:
+  build:
+    # 运行环境：最新Ubuntu
+    runs-on: ubuntu-latest
+    steps:
+      # 拉取仓库代码
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 生成蛇形图
+      - name: Generate snake grid
+        uses: Platane/snk@v3
+        with:
+          # GitHub用户名
+          github_user_name: RhysScott
+          # 输出目录
+          output_dir: ./images
+          # 生成深色版
+          generate_dark_mode: true
+
+      # 提交生成的文件
+      - name: Push changes to repo
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # 提交说明
+          commit_message: "Auto update GitHub contribution snake graph"
+          # 要提交的文件
+          file_pattern: ./images/*.svg
