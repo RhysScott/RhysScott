@@ -13,32 +13,7 @@
   </picture>
 </p>
 
-<div align="center">
-<span>&emsp;&emsp;</span>
-<img height="170px" src="https://github-readme-stats.vercel.app/api?username=RhysScott" /><span>&emsp;&emsp;</span><img height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RhysScott&layout=compact&langs_count=8" />
-<span>&emsp;&emsp;</span>
-</div>
-
-![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=RhysScott&theme=github-light)
-
-<p align="center" style="margin: 20px 0;">
-  <table align="center" cellpadding="10" style="border-collapse: separate; border-spacing: 20px; text-align: center;">
-    <tbody>
-      <tr>
-        <td>
-          <img src="https://cdn.jsdelivr.net/gh/RhysScott/RhysScott/images/微信收款二维码.jpg" width="250px" alt="WeChat Pay" style="border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" />
-        </td>
-        <td>
-          <img src="https://cdn.jsdelivr.net/gh/RhysScott/RhysScott/images/支付宝收款二维码.jpg" width="250px" alt="Ali Pay" style="border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" />
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</p>
-
-# 🙋 Hello
-
-### 🤺 About Me
+## 🤺 About Me
 
 <p align="left">
   <img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/jobs.png" style="margin-left: 20px; margin-bottom: 10px;" />
@@ -48,3 +23,10 @@
 <p>&emsp;&emsp;热爱计算机科学和 IT 互联网事业，希望能成为一名优秀的开发者。</p>
 <p>&emsp;&emsp;我们正在让这个世界变得更加美好，通过代码的重复使用和延展构建完美体系。</p>
 <p>&emsp;&emsp;<strong>We're making the world a better place. Through constructing elegant hierarchies for maximum code reuse and extensibility.</strong></p>
+<div align="center">
+<span>&emsp;&emsp;</span>
+<img height="170px" src="https://github-readme-stats.vercel.app/api?username=RhysScott" /><span>&emsp;&emsp;</span><img height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RhysScott&layout=compact&langs_count=8" />
+<span>&emsp;&emsp;</span>
+</div>
+
+![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=RhysScott&theme=github-light)
